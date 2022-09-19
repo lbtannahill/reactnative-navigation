@@ -15,7 +15,7 @@ export default function MealItem({
       >
         <View>
           <Image source={{ uri: imageURL }} style={styles.images} />
-          <Text style={styles.title}>{title}</Text>
+          <Text style={styles.title}>{title} . yes</Text>
         </View>
         <View style={styles.details}>
           <Text style={styles.detailItem}>{duration}m</Text>
